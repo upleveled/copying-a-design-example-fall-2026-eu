@@ -1,0 +1,21 @@
+.linkButton {
+  padding: 0 12px;
+  line-height: 32px;
+  vertical-align: middle;
+  // border: 1px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  border-radius: 8px;
+  color: var(--color-black);
+  text-decoration: none;
+  box-shadow:
+    rgba(0, 0, 0, 0.12) 0px 0px 0px 0.5px,
+    rgba(0, 0, 0, 0.18) 0px 0.602187px 0.602187px -1.25px,
+    rgba(0, 0, 0, 0.16) 0px 2.28853px 2.28853px -2.5px,
+    rgba(0, 0, 0, 0.06) 0px 10px 10px -3.75px;
+
+  &.linkButtonDark {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    box-shadow: none;
+  }
+}
