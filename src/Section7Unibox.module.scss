@@ -1,7 +1,11 @@
 .section {
+  // // Simpler version of the layout grid with breakout effect:
+  // justify-self: center;
+  // width: 100cqw;
+
+  // Breakout effect for layout grid
   grid-column: full;
-  justify-self: center;
-  width: 100cqw;
+
   background: radial-gradient(
     circle,
     rgb(156, 128, 232) 0%,
